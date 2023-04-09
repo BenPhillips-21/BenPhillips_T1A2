@@ -52,6 +52,43 @@ nav .menu-btn i{
 input[type="checkbox"]{
   display: none;
 }
+
+article img {
+    width: 20%;
+border-radius: 50%;
+}
+
+.navbar {
+    background-color: #145DA0;
+    overflow: hidden;
+    position: fixed;
+    bottom: 0;
+    width: 100%;
+  }
+  
+  .navbar {
+    float: left;
+    display: block;
+    text-align: center;
+    padding: 8px 8px;
+  }
+
+  .navbar img {
+    width: 2%;
+    display: inline;
+    justify-content: space-around;
+    transition: 2s;
+  }
+
+  .navbar a:hover {
+    transform: scale(1.5);
+}
+  
+  .navbar a.active {
+    background-color: #2E8BC0;
+    color: white;
+  }
+
 @media (max-width: 1000px){
   nav{
     padding: 0 40px 0 50px;
