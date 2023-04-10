@@ -16,7 +16,7 @@ nav{
   flex-wrap: wrap;
 }
 nav .logo{
-  color: #fff;
+  color: white;
   font-size: 35px;
   font-weight: 600;
 }
@@ -29,7 +29,7 @@ nav ul li{
   margin: 0 5px;
 }
 nav ul li a{
-  color: #f2f2f2;
+  color: white;
   text-decoration: none;
   font-size: 18px;
   font-weight: 500;
@@ -41,10 +41,10 @@ nav ul li a{
 nav ul li a.active,
 nav ul li a:hover{
   color: #145DA0;
-  background: #fff;
+  background: white;
 }
 nav .menu-btn i{
-  color: #fff;
+  color: white;
   font-size: 22px;
   cursor: pointer;
   display: none;
@@ -53,9 +53,63 @@ input[type="checkbox"]{
   display: none;
 }
 
-article img {
-    width: 20%;
-border-radius: 50%;
+body {
+  background-color: #B1D4E0;
+}
+
+article {
+  color: purple;
+}
+
+.container {
+  margin-left: 8%;
+  margin-top: 12%;
+}
+
+.container img {
+  border-radius: 50%;
+  border: 3px solid #0C2D48;
+  width: 25%;
+  margin: 20px;
+  position: absolute;
+  top: 20%;
+  right: 18%;
+}
+
+.container h1 {
+  font-family: 'PT Serif', 'PT', 'Arial', sans-serif;
+  font-size: 4rem;
+  color: #2E8BC0;
+  margin-bottom: 20px;
+}
+
+.container p {
+  font-family: 'PT', 'Arial', sans-serif;
+  color: #0C2D48;
+  font-size: 2rem;
+  margin-right: 30px;
+}
+
+section h1 {
+  font-family: 'PT Serif', 'PT', 'Arial', sans-serif;
+  color: #2E8BC0;
+  font-size: 4rem;
+}
+
+section p {
+  font-family: 'PT', 'Arial', sans-serif;
+  font-size: 2rem;
+  color: #0C2D48;
+}
+
+section img {
+  width: 20%;
+}
+
+section li {
+  font-family: 'PT', 'Arial', sans-serif;
+  color: #0C2D48;
+  font-size: 1.75rem;
 }
 
 .navbar {
