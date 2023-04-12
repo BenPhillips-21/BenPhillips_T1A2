@@ -5,20 +5,26 @@ body {
   article {
     color: purple;
   }
+
+  body {
+    /* height: 100vh; */
+  }
   
   .container {
     margin-left: 8%;
-    margin-top: 12%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
   }
-  
+
+  .inner-container {
+    width: 60%;
+  }
+
   .container img {
     border-radius: 50%;
     border: 3px solid #0C2D48;
     width: 25%;
-    margin: 20px;
-    position: absolute;
-    top: 20%;
-    right: 18%;
   }
   
   .container h1 {
@@ -33,5 +39,14 @@ body {
     color: #0C2D48;
     font-size: 2rem;
     margin-right: 30px;
+  }
+
+  @media (max-width: 1000px) {
+    .container {
+      flex-direction: column;
+      justify-content: column;
+    }
+
+
   }
   

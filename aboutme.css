@@ -1,0 +1,34 @@
+.bigcontainer {
+    margin-left: 8%;
+    margin-top: 6%;
+    display: flex;
+    align-items: center;
+  }
+
+  .content1 {
+    width: 60%;
+  }
+
+  .content2 {
+    width: 40%
+  }
+
+  .bigcontainer img {
+    border-radius: 50%;
+    border: 3px solid #0C2D48;
+    width: 50%;
+  }
+  
+  .bigcontainer h1 {
+    font-family: 'PT Serif', 'PT', 'Arial', sans-serif;
+    font-size: 4rem;
+    color: #2E8BC0;
+    margin-bottom: 20px;
+  }
+  
+  .bigcontainer p {
+    font-family: 'PT', 'Arial', sans-serif;
+    color: #0C2D48;
+    font-size: 2rem;
+    margin-right: 30px;
+  }
