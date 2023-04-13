@@ -167,8 +167,8 @@
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
-
-@media (max-width: 1000px){
+/* tablet styling */
+@media (max-width: 810px){
   .blog1 img {
     width: 20rem;
   }
@@ -226,5 +226,86 @@
   }
   .blog5 h1 {
     font-size: 2rem;
+  }
+}
+/* mobile styling */
+@media (max-width: 480px) {
+.blog1 {
+  width: 90%;
+}
+
+  .blog1 img {
+    width: 12.5rem;
+  }
+
+  .blog1 p {
+    font-size: 0.7rem;
+  }
+
+  .blog1 h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog2 {
+    width: 90%;
+  }
+
+  .blog2 img {
+    width: 12.5rem;
+  }
+
+  .blog2 p {
+    font-size: 0.7rem;
+  }
+
+  .blog2 h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog3 {
+    width: 90%;
+  }
+
+  .blog3 img {
+    width: 12.5rem;
+  }
+
+  .blog3 p {
+    font-size: 0.7rem;
+  }
+
+  .blog3 h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog4 {
+    width: 90%;
+  }
+
+  .blog4 img {
+    width: 12.5rem;
+  }
+
+  .blog4 p {
+    font-size: 0.7rem;
+  }
+
+  .blog4 h1 {
+    font-size: 1.8rem;
+  }
+
+  .blog5 {
+    width: 90%;
+  }
+
+  .blog5 img {
+    width: 12.5rem;
+  }
+
+  .blog5 p {
+    font-size: 0.7rem;
+  }
+  .blog5 h1 {
+    font-size: 1.8rem;
   }
 }

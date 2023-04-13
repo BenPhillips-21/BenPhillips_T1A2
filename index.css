@@ -5,10 +5,6 @@ body {
   article {
     color: purple;
   }
-
-  body {
-    /* height: 100vh; */
-  }
   
   .container {
     margin-left: 8%;
@@ -41,12 +37,55 @@ body {
     margin-right: 30px;
   }
 
-  @media (max-width: 1000px) {
+  /* tablet styling */
+
+  @media (max-width: 810px) {
     .container {
       flex-direction: column;
       justify-content: column;
+      margin-left: 0%;
+      margin-top: 0.5%;
+      padding: 8rem 0;
+      text-align: center;
     }
 
+    .container h1 {
+      font-size: 3rem;
+      justify-content: center;
+      text-align: center;
+    }
+    .container p {
+      font-size: 1.42rem;
+      text-align: center;
+    }
 
+    .container img {
+      width: 50%;
+      margin-top: 3rem;
+    }
   }
+
+  /* mobile styling */
+
+  @media (max-width: 480px) {
   
+    .container {
+      margin-left: 0%;
+      margin-top: 0%;
+      display: flex;
+      align-items: center;
+    }
+  .container img {
+  width: 60%;
+  margin-top: 2.5rem;
+  }
+
+  .container p {
+    font-size: 1rem;
+    text-align: center;
+    margin-right: 0px;
+  }
+  .container h1 {
+    font-size: 1.7rem;
+  }
+  }

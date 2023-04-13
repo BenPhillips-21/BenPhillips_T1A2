@@ -2,8 +2,8 @@ span {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
-    margin-left: 30rem;
-    margin-right: 30rem;
+    margin-left: 30rem; 
+    margin-right: 30rem; 
   }
 
   header h1 {
@@ -12,7 +12,7 @@ span {
     font-size: 5rem;
     display: flex;
     justify-content: center;
-    margin-bottom: 7rem;
+    margin-bottom: 3rem;
     margin-top: 2rem;
   }
   span img {
@@ -22,18 +22,98 @@ span {
     object-fit: cover;
 }
 
-@media (max-width: 1000px){
+@media (max-width: 810px){
   span img {
-    width:  150px;
-    height: 150px;
+    width:  200px;
+    height: 200px;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
   }
 
   span {
-    /* width: 0;
     display: flex;
-    justify-content: center; */
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 18.5rem;
   }
 
   header h1 {
     font-size: 3rem; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
   }
+}
+
+@media (max-width: 700px){
+  span img {
+    width:  200px;
+    height: 200px;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 14.7rem;
+  }
+
+  header h1 {
+    font-size: 3rem; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 590px){
+  span img {
+    width:  200px;
+    height: 200px;
+    /* margin: 1rem; */
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    margin-left: 11.1rem;
+  }
+
+  header h1 {
+    font-size: 3rem; 
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+  }
+}
+
+@media (max-width: 480px) {
+  span img {
+    width:  120px;
+    height: 120px;
+    margin: 1rem;
+  }
+
+  span {
+    display: flex;
+    flex-direction: column;
+    margin-left: 7.5rem;
+  }
+
+  header h1 {
+    font-size: 2rem; 
+    margin-bottom: 0.5rem;
+    display: flex;
+    flex-direction: column;
+  }
+}
