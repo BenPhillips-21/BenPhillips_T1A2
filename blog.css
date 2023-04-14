@@ -4,7 +4,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border: 5px solid #0C2D48;
   border-radius: 10px;
   margin: 30px auto;
@@ -14,19 +14,19 @@
 .blog1 h1 {
   margin: 1rem;
   font-family: 'PT Serif', 'Helvetica', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #145DA0;
 }
 
 .blog1 img {
-  width: 30rem;
+  width: 17rem;
   border-radius: 5%;
   border: 3.5px solid #145DA0;
 }
 
 .blog1 p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
@@ -37,7 +37,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border: 5px solid #0C2D48;
   border-radius: 10px;
   margin: 30px auto;
@@ -48,19 +48,19 @@
 .blog2 h1 {
   margin: 1rem;
   font-family: 'PT Serif', 'Helvetica', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #145DA0;
 }
 
 .blog2 img {
-  width: 30rem;
+  width: 15rem;
   border-radius: 5%;
   border: 3.5px solid #145DA0;
 }
 
 .blog2 p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
@@ -71,7 +71,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border: 5px solid #0C2D48;
   border-radius: 10px;
   margin: 30px auto;
@@ -82,19 +82,18 @@
 .blog3 h1 {
   margin: 1rem;
   font-family: 'PT Serif', 'Helvetica', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #145DA0;
 }
 
 .blog3 img {
-  width: 30rem;
+  width: 15rem;
   border-radius: 5%;
-  border: 3.5px solid #145DA0;
 }
 
 .blog3 p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
@@ -105,7 +104,7 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border: 5px solid #0C2D48;
   border-radius: 10px;
   margin: 30px auto;
@@ -116,19 +115,19 @@
 .blog4 h1 {
   margin: 1rem;
   font-family: 'PT Serif', 'Helvetica', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #145DA0;;
 }
 
 .blog4 img {
-  width: 30rem;
+  width: 15rem;
   border-radius: 5%;
   border: 3.5px solid #145DA0;
 }
 
 .blog4 p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
@@ -139,93 +138,113 @@
   flex-direction: column;
   justify-content: center;
   align-items: center;
-  width: 70%;
+  width: 50%;
   border: 5px solid #0C2D48;
   border-radius: 10px;
   margin: 30px auto;
   padding: 2rem;
-  margin-bottom: 7rem;
+  margin-bottom: 3rem;
   margin-top: 3rem;
 }
 
 .blog5 h1 {
   margin: 1rem;
   font-family: 'PT Serif', 'Helvetica', sans-serif;
-  font-size: 3rem;
+  font-size: 2.5rem;
   color: #145DA0;
 }
 
 .blog5 img {
-  width: 30rem;
+  width: 15rem;
   border-radius: 5%;
-  border: 3.5px solid #145DA0;
 }
 
 .blog5 p {
   margin: 1rem;
-  font-size: 2rem;
+  font-size: 1rem;
   font-family: 'PT', 'Helvetica', sans-serif;
   color: #0C2D48;
 }
 /* tablet styling */
 @media (max-width: 810px){
+  .blog1 {
+    width: 65%;
+  }
+
+  .blog2 {
+    width: 65%;
+  }
+
+  .blog3 {
+    width: 65%;
+  }
+
+  .blog4 {
+    width: 65%;
+  }
+
+  .blog5 {
+    width: 65%;
+  }
+
+  
   .blog1 img {
-    width: 20rem;
+    width: 15rem;
   }
 
   .blog1 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .blog1 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .blog2 img {
-    width: 17rem;
+    width: 13rem;
   }
 
   .blog2 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .blog2 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .blog3 img {
-    width: 20rem;
+    width: 13rem;
   }
 
   .blog3 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .blog3 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .blog4 img {
-    width: 20rem;
+    width: 13rem;
   }
 
   .blog4 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
 
   .blog4 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 
   .blog5 img {
-    width: 20rem;
+    width: 13rem;
   }
 
   .blog5 p {
-    font-size: 1.3rem;
+    font-size: 1rem;
   }
   .blog5 h1 {
-    font-size: 2rem;
+    font-size: 1.5rem;
   }
 }
 /* mobile styling */
