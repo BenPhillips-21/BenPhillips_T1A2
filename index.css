@@ -1,10 +1,4 @@
-body {
-    background-color: white;
-  }
-  
-  article {
-    color: purple;
-  }
+/* desktop styling */
   
   .container {
     margin-left: 8%;
@@ -13,7 +7,7 @@ body {
     align-items: center;
   }
 
-  .inner-container {
+  .innercontainer {
     width: 60%;
   }
 

@@ -1,4 +1,5 @@
-span {
+/* desktop styling */
+figure {
     display: flex;
     flex-direction: row;
     justify-content: space-evenly;
@@ -15,24 +16,25 @@ span {
     margin-bottom: 3rem;
     margin-top: 2rem;
   }
-  span img {
+  figure img {
     float: left;
     width:  200px;
     height: 200px;
     object-fit: cover;
 }
 
+/* tablet styling */
+
 @media (max-width: 810px){
-  span img {
+  figure img {
     width:  200px;
     height: 200px;
-    /* margin: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  span {
+  figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -48,16 +50,15 @@ span {
 }
 
 @media (max-width: 700px){
-  span img {
+  figure img {
     width:  200px;
     height: 200px;
-    /* margin: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  span {
+  figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -72,17 +73,18 @@ span {
   }
 }
 
+/* iphone styling */
+
 @media (max-width: 590px){
-  span img {
+  figure img {
     width:  200px;
     height: 200px;
-    /* margin: 1rem; */
     display: flex;
     flex-direction: column;
     justify-content: center;
   }
 
-  span {
+  figure {
     display: flex;
     flex-direction: column;
     justify-content: center;
@@ -98,13 +100,13 @@ span {
 }
 
 @media (max-width: 480px) {
-  span img {
+  figure img {
     width:  120px;
     height: 120px;
     margin: 1rem;
   }
 
-  span {
+  figure {
     display: flex;
     flex-direction: column;
     margin-left: 7.5rem;

@@ -1,3 +1,4 @@
+/* desktop styling */
 .bigcontainer {
     margin-left: 8%;
     margin-top: 6%;
@@ -5,7 +6,7 @@
     align-items: center;
   }
 
-  .content1 {
+  .maincontent {
     width: 55%;
   }
 
@@ -21,14 +22,14 @@
   color: #0C2D48;
   }
 
-  .content2 {
+  .subcontent {
     width: 45%;
     display: flex;
     flex-direction: column;
     align-items: center;
   }
 
-  .content2 ul {
+  .subcontent ul {
     margin-top: 1rem;
   }
 
@@ -62,7 +63,7 @@
       justify-content: center;
     }
   
-    .content1 {
+    .maincontent {
       width: 70%;
     }
   
@@ -97,11 +98,11 @@
       justify-content: center;
     }
   
-    .content1 {
+    .maincontent {
       width: 70%;
     } 
 
-    .content2 img {
+    .subcontent img {
       margin-top: 0rem;
     }
   
