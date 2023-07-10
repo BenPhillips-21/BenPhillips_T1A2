@@ -1,0 +1,60 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="common.css">
+    <link rel="stylesheet" href="key-projects.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.2/css/all.min.css"/>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <title>Benjamin Phillips Portfolio - key-project Page</title>
+  </head>
+  <body>
+    <nav>
+      <input type="checkbox" id="click">
+      <label for="click" class="menu-btn">
+        <i class="fas fa-bars"></i>
+      </label>
+      <ul>
+        <li><a href="./index.html" href="#">Home</a></li>
+        <li><a href="./aboutme.html">About Me</a></li>
+        <li><a href="./blog.html">Blog</a></li>
+        <li><a class="active">Projects</a></li>
+        <li><a href="./contact.html">Contact</a></li>
+        <li><a target="_blank" href="https://github.com/BenPhillips-21/BenPhillips_T1A2/blob/main/Ben%20Phillips%20Jnr%20Web%20Dev%20Resume%20(July%202023).pdf">Resume</a></li>
+      </ul>
+    </nav>
+    <!-- id in html element that can be targeted by link (at bottom of page) -->
+    <html id="top"></html>
+    <!-- key-project containers -->
+    <article class="key-project1">
+    <h1>'Saloon' - A Text-Based Game</h1>
+    <h5>May 2023</h5>
+    <img src="Images/Blackjack.jpg" alt="Blackjack image">
+    <p>'Saloon' is a simple text-adventure set in an old Saloon in the Wild West. The game involves 4 mini-games; Blackjack, a 'protein calculator', a number guessing game and a joke generator. I wrote 'Saloon' in Python. Below is some information about how I coded Blackjack.</p> 
+    <p>Blackjack features 3 functions. In order to draw random cards from a deck, I initialized a deck with all the different card types, and also initialized two empty lists (one hand for the dealer and one hand for the user) and then used the random module to randomly add two cards to the dealer and users lists from the deck. The 'calculate hand' function uses a for loop that cycles through the items in the user's hand (which is a list) and adds up the total of them and subsequently returns that total which is used in the hit and stand functions. Both the 'hit' and 'stand' functions use global variables so that they can access the variables that aren't available to them in their local scope.
+    <br><br> The initial hand is dealt to the player their input is asked for, and using error handling, if the input is not either 'hit' or 'stand' a 'ValueError' is raised and the user is asked to re-enter a valid input. The 'hit' function runs when the user inputs 'hit' after their initial hand (unless their opening hand is blackjack). 'Hit' uses an 'if/elif/else' statement to determine whether the player gets blackjack, busts, or if they get neither of these, then it asks them to 'hit' or 'stand' again. The 'stand' function starts out by revealing the dealers second card (as the dealers opening hand is always obscured in blackjack) and if the dealer has not won (or tied) with his opening hand then it goes into the else statement, and keeps drawing cards while the result of the dealers hand is less than 21 until it either busts, wins, or pushes.
+    <br><br>Making a simple text-based adventure game in Python taught me valuable lessons about coding. Firstly, I learned the importance of planning and structuring my code before diving into implementation. By carefully designing the game's flow and organizing it into functions, I achieved better code readability and maintainability. I also gained a deeper understanding of conditional statements and loops, as they were crucial for creating dynamic interactions within the game (especially in Blackjack). Lastly, debugging became a familiar companion throughout the development process. It taught me the significance of thorough testing and the importance of paying attention to detail. Overall, this project allowed me to enhance my problem-solving skills, logical thinking, and grasp of Python syntax, while also igniting my passion for creating interactive experiences through code.</p>
+    <a href="https://github.com/BenPhillips-21/BenPhillips_T1A3">Link to Git Repo</a>
+    </article>
+    <article class="key-project2">
+      <h1>'Book Club' - Flask API</h1>
+      <h5>June, 2023</h5>
+      <img src="Images/Flask.png" alt="Flask logo">
+      <p>Flask API that functions as a 'social network' for book lovers. I created this app as there isn't a popular application out right now that is designed for connecting book lovers.  Users can read information about books, review books, and leave comments on other users' reviews. The app utilises SQL to create a relational database system which faciliates the relationships between the various entities required for the app. <br><br/> Developing the 'Book Club' taught me invaluable lessons about coding. I gained a solid understanding of building RESTful APIs and implementing CRUD operations. Flask's simplicity and flexibility allowed me to focus on designing robust endpoints and handling various HTTP methods efficiently. Working with SQL databases deepened my knowledge of database management systems and taught me how to model relationships between entities effectively. I became proficient in writing SQL queries, ensuring data integrity, and optimizing database performance. Additionally, I learned the importance of user authentication and authorization, implementing secure routes and user sessions using Flask's built-in features and third-party libraries. Lastly, I gained insights into error handling, logging, and testing, ensuring that my API delivers consistent and reliable responses. This project broadened my understanding of web development, API design principles, and best practices in Python, making me more proficient in creating robust and scalable backend systems. </p>
+      <a href="https://github.com/CoderAcademy-ALL/BenjaminPhillips-T2A2">Link to Git Repo</a>
+      <a href="#top">Jump to top of page</a>
+    </article>
+        
+    </article>
+    </article>
+            <div class="navbar">
+              <a target="_blank" href="https://github.com/BenPhillips-21"><img src="https://cdn-icons-png.flaticon.com/512/38/38401.png" alt="GutHub Icon" /></a>
+              <a target="_blank" href="https://www.linkedin.com/in/benjamin-phillips-697516267/"><img src="https://www.edigitalagency.com.au/wp-content/uploads/new-linkedin-logo-white-black-png.png" alt="LinkedIn Icon" /></a>
+              <a target="_blank" href="mailto: pben012@gmail.com"><img src="https://i.pinimg.com/564x/63/aa/4d/63aa4d05b6ebd3c1ab37a2939fa33918.jpg" alt="Email Icon" /></a> 
+          </div> 
+        </body>
+      </html>

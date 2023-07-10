@@ -1,0 +1,240 @@
+/* desktop styling */
+.key-project1 {
+    background-color: #B1D4E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 5px solid #0C2D48;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 2rem;
+  }
+  
+  .key-project1 h1 {
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    font-size: 2.5rem;
+    color: #145DA0;
+    text-decoration: underline;
+    text-align: center;
+  }
+  
+  .key-project1 h5 {
+    margin: 0.3rem 0 1rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+
+  .key-project1 h4 {
+    margin: 0.3rem 0 0.5rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+
+  .key-project1 a {
+    margin: 0.3rem 0 0.5rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+  
+  .key-project1 img {
+    width: 15rem;
+    border-radius: 5%;
+    border: 3.5px solid #145DA0;
+  }
+  
+  .key-project1 p {
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: 'PT', 'Helvetica', sans-serif;
+    color: #0C2D48;
+  }
+  
+  .key-project2 {
+    background-color: #B1D4E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 5px solid #0C2D48;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .key-project2 h1 {
+    margin: 1rem;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    font-size: 2.5rem;
+    color: #145DA0;
+    text-decoration: underline;
+  }
+  
+  .key-project2 h5 {
+    margin: 0rem 0 1rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+  
+  .key-project2 img {
+    width: 15rem;
+    border-radius: 5%;
+    border: 3.5px solid #145DA0;
+  }
+  
+  .key-project2 p {
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: 'PT', 'Helvetica', sans-serif;
+    color: #0C2D48;
+  }
+
+  .key-project2 a {
+    margin: 0.3rem 0 0.5rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+  
+  .key-project3 {
+    background-color: #B1D4E0;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 50%;
+    border: 5px solid #0C2D48;
+    border-radius: 10px;
+    margin: 30px auto;
+    padding: 2rem;
+    margin-top: 3rem;
+  }
+  
+  .key-project3 h1 {
+    margin: 1rem;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    font-size: 2.5rem;
+    color: #145DA0;
+    text-decoration: underline;
+  }
+  
+  .key-project3 h5 {
+    margin: 0.3rem 0 1rem 0;
+    font-family: 'PT Serif', 'Helvetica', sans-serif;
+    color: #145DA0;
+  }
+  
+  .key-project3 img {
+    width: 12rem;
+    border-radius: 5%;
+  }
+  
+  .key-project3 p {
+    margin: 1rem;
+    font-size: 1rem;
+    font-family: 'PT', 'Helvetica', sans-serif;
+    color: #0C2D48;
+  }
+  /* tablet styling */
+  @media (max-width: 810px){
+    .key-project1 {
+      width: 65%;
+    }
+  
+    .key-project2 {
+      width: 65%;
+    }
+  
+    .key-project3 {
+      width: 65%;
+    }
+  
+    
+    .key-project1 img {
+      width: 10rem;
+    }
+  
+    .key-project1 p {
+      font-size: 1rem;
+    }
+  
+    .key-project1 h1 {
+      font-size: 1.5rem;
+    }
+  
+    .key-project2 img {
+      width: 10rem;
+    }
+  
+    .key-project2 p {
+      font-size: 1rem;
+    }
+  
+    .key-project2 h1 {
+      font-size: 1.5rem;
+    }
+  
+    .key-project3 img {
+      width: 10rem;
+    }
+  
+    .key-project3 p {
+      font-size: 1rem;
+    }
+  
+    .key-project3 h1 {
+      font-size: 1.5rem;
+    }
+  }
+  /* mobile styling */
+  @media (max-width: 480px) {
+  .key-project1 {
+    width: 90%;
+  }
+  
+    .key-project1 img {
+      width: 12.5rem;
+    }
+  
+    .key-project1 p {
+      font-size: 0.7rem;
+    }
+  
+    .key-project1 h1 {
+      font-size: 1.8rem;
+    }
+  
+    .key-project2 {
+      width: 90%;
+    }
+  
+    .key-project2 img {
+      width: 9rem;
+    }
+  
+    .key-project2 p {
+      font-size: 0.7rem;
+    }
+  
+    .key-project2 h1 {
+      font-size: 1.8rem;
+    }
+  
+    .key-project3 {
+      width: 90%;
+    }
+  
+    .key-project3 img {
+      width: 10rem;
+    }
+  
+    .key-project3 p {
+      font-size: 0.7rem;
+    }
+  
+    .key-project3 h1 {
+      font-size: 1.8rem;
+    }
+  }
