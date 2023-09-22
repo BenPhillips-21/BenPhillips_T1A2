@@ -106,8 +106,9 @@
 }
 
 .blog3 img {
-  width: 12rem;
-  border-radius: 5%;
+  width: 11rem;
+  border-radius: 3%;
+  border: 3.5px solid #145DA0
 }
 
 .blog3 p {
@@ -146,7 +147,7 @@
 }
 
 .blog4 img {
-  width: 12rem;
+  width: 20rem;
   border-radius: 5%;
   border: 3.5px solid #145DA0;
 }
